@@ -52,6 +52,13 @@
 			path = TableViewWithDetails;
 			sourceTree = "<group>";
 		};
+		E7C0520624366C3100533BAA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		E7ED017924351CCC0062D743 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +78,7 @@
 		E7ED018424351CCC0062D743 /* testproject-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				E7C0520624366C3100533BAA /* CollectionView */,
 				E778A45A24352AA80017E7BF /* TableViewWithDetails */,
 				E7ED019B2435238D0062D743 /* Search */,
 				E7ED018524351CCC0062D743 /* AppDelegate.swift */,

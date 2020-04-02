@@ -12,14 +12,25 @@ struct TableView: View {
     let musics = ["Yellow Submarine", "Eleanor Rigby", "Let it be", "Help!", "Imagine"]
     
     var body: some View {
-            VStack {
-                List(self.musics, id: \.self) { music in
-                    NavigationLink(destination: DetailsView(music: music)) {
-                        Text(music)
+        VStack {
+            List(self.musics.enumerated().map({$0}), id: \.element) { index,name in
+                NavigationLink(destination: DetailsView(music: name)) {
+                    
+                    HStack {
+                        Image("capa-\(index)").resizable().frame(width: 100, height: 100)
                         
+                        VStack(alignment: .leading, spacing: 0) {
+                            Text(name)
+                            
+                            HStack(spacing: 5) {
+                                Image(systemName: "star")
+                                Text("5.0")
+                            }.offset(x: 0, y: 20)
+                        }
                     }
                 }
-            }.navigationBarTitle("Search Song", displayMode: .automatic)
+            }
+        }.navigationBarTitle("Search Song", displayMode: .automatic)
     }
 }
 

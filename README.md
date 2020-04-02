@@ -14,3 +14,7 @@
     
 -   **Navigation Link**
 [https://www.raywenderlich.com/5824937-swiftui-tutorial-navigation](https://www.raywenderlich.com/5824937-swiftui-tutorial-navigation)
+
+-   **SwiftUI Tips and Tricks**
+[https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks](https://www.hackingwithswift.com/quick-start/swiftui/swiftui-tips-and-tricks)
+
