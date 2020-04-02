@@ -14,7 +14,7 @@ struct TableView: View {
     var body: some View {
         VStack {
             List(self.musics.enumerated().map({$0}), id: \.element) { index,name in
-                NavigationLink(destination: DetailsView(music: name)) {
+                NavigationLink(destination: DetailsView(music: name, imageName: "capa-\(index)")) {
                     
                     HStack {
                         Image("capa-\(index)").resizable().frame(width: 100, height: 100)
