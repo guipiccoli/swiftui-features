@@ -11,23 +11,38 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 30) {
                 NavigationLink(destination: SearchContentView()) {
-                    Text("Show detail view")
+                    Text("Table View")
                         .frame(width: 200, height: 75, alignment: .center)
-                        .background(Color.red)
                         .cornerRadius(20)
+                        .overlay(
+                        RoundedRectangle(cornerRadius: 16)
+                            .stroke(Color.red, lineWidth: 2))
+
                 }
                 
-                Divider()
                 
                 NavigationLink(destination: TableView()) {
-                    Text("Show test")
+                    Text("Search Table View")
                         .frame(width: 200, height: 75, alignment: .center)
-                        .background(Color.blue)
                         .cornerRadius(20)
                         .foregroundColor(Color.red)
+                        .overlay(
+                        RoundedRectangle(cornerRadius: 16)
+                            .stroke(Color.blue, lineWidth: 2))
+
                 }
+                                
+                NavigationLink(destination: CollectionView()) {
+                    Text("Collection View")
+                        .frame(width: 200, height: 75, alignment: .center)
+                        .foregroundColor(Color.blue)
+                        .overlay(
+                               RoundedRectangle(cornerRadius: 16)
+                                   .stroke(Color.red, lineWidth: 2))
+                }
+
                 
             }.navigationBarTitle("Master view")
             

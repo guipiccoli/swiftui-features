@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70FD0E22437A7FA006A24BA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70FD0E12437A7FA006A24BA /* CollectionView.swift */; };
 		E778A45C24352ACB0017E7BF /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778A45B24352ACB0017E7BF /* TableView.swift */; };
 		E778A45E24352B3D0017E7BF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E778A45D24352B3D0017E7BF /* DetailsView.swift */; };
 		E7ED018624351CCC0062D743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7ED018524351CCC0062D743 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70FD0E12437A7FA006A24BA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		E778A45B24352ACB0017E7BF /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		E778A45D24352B3D0017E7BF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		E7ED018224351CCC0062D743 /* testproject-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testproject-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 		E7C0520624366C3100533BAA /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				E70FD0E12437A7FA006A24BA /* CollectionView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				E7ED018624351CCC0062D743 /* AppDelegate.swift in Sources */,
 				E778A45C24352ACB0017E7BF /* TableView.swift in Sources */,
+				E70FD0E22437A7FA006A24BA /* CollectionView.swift in Sources */,
 				E7ED018824351CCC0062D743 /* SceneDelegate.swift in Sources */,
 				E7ED019A2435233D0062D743 /* SearchContentView.swift in Sources */,
 				E7ED018A24351CCC0062D743 /* ContentView.swift in Sources */,
